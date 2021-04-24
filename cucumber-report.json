@@ -1,0 +1,177 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-an-e-commerce-website;verify-users-can-login-to-portal-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify users can login to portal with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1317000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User visits e-commerce website-1",
+            "match": {
+              "location": "features\\support\\login-TS01.test.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User enters \"testuser412@grr.la\" and \"2t8zmqzL\"-1",
+            "match": {
+              "location": "features\\support\\login-TS01.test.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4439000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User can logged in successfully",
+            "match": {
+              "location": "features\\support\\login-TS01.test.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-an-e-commerce-website;verify-users-can-not-login-to-portal-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify users can not login to portal with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 454000000
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "User visits e-commerce website-2",
+            "match": {
+              "location": "features\\support\\login-TS02.test.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8201000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User enters \"testuser100@grr.la\" and \"abcd1234\"-2",
+            "match": {
+              "location": "features\\support\\login-TS02.test.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6010000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User gets error message",
+            "match": {
+              "location": "features\\support\\login-TS02.test.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 225000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 261000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-an-e-commerce-website",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login to an e-commerce website",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
