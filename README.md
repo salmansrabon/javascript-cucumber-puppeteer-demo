@@ -8,3 +8,4 @@ npm test
 npm run report
 
 ```
+![2021-04-25_1-09-21](https://user-images.githubusercontent.com/48891202/115970403-e529cf80-a563-11eb-9b55-23f10275f824.png)
