@@ -1,7 +1,8 @@
 # parameterized-bdd-puppeteer
 ## How to run this project:
 1. clone the project
-2. hit this command one by one:
+2. Open terminal inside the project folder
+3. hit this command one by one:
 ```
 npm i
 npm test
